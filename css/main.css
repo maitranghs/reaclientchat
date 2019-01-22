@@ -1,0 +1,165 @@
+/* Common */
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+input {
+    border-style: none;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* Main container */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 768px;
+    width: 1024px;
+    margin: 0 auto; /*to make div center*/
+}
+/* Header */
+.main-header {
+    height: 10%;
+    width: 100%;
+    background-color: aquamarine;
+}
+/*----------------*/
+/*----------------*/
+/* Content */
+.main-content {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+.main-content-right {
+    width: 70%;
+    border: 0.5px rgba(128, 128, 128, 0.466) solid;
+    display: flex;
+    flex-direction: column;
+}
+/* Left menu */
+.main-left-menu {
+    width: 30%;
+}
+.left-menu-search {
+    border: 0.5px rgba(128, 128, 128, 0.466) solid;
+    border-right: none;
+    border-bottom: none;
+    padding: 10px;
+}
+.left-search-input {
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+    background-color: #f5f6f7;
+}
+.left-menu-list-chat {
+    border: 0.5px rgba(128, 128, 128, 0.466) solid;
+    border-right: none;
+}
+.left-menu-list-chat ul {
+    overflow-y: scroll;
+    height: 563px;
+}
+.chat-wrap-li {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+}
+.chat-wrap-li:hover {
+    background-color: #f5f6f7;
+    cursor: pointer;
+}
+.chat-avatar {
+    width: 20%;
+}
+.chat-avatar img {
+    height: 50px;
+}
+.chat-details {
+    width: 80%;
+    margin: auto 0;
+}
+.chat-details .chat-username {
+    color: rgb(37, 37, 37);
+}
+.chat-details .chat-last-message {
+    color: gray;
+}
+/* Chat box */
+.main-chat-box {
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.chat-main-message {
+    position: relative;
+    height: 95%;
+    padding-left: 10px;
+}
+.chat-a-message:nth-child(odd) {
+    background-color: yellow;
+}
+.chat-message-icon img {
+    height: 45px;
+}
+.chat-message {
+    position: absolute;
+}
+.message-left {
+    left: 30px;
+    top: 0px;
+}
+.message-right {
+    right: 30px;
+}
+.chat-box-typing {
+    height: 5%;
+    color: gray;
+    padding-left: 10px;
+}
+/* Message box */
+.message-box {
+    height: 20%;
+    margin: 0;
+    border-top: 0.5px rgba(128, 128, 128, 0.466) solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.message-input {
+    width: 80%;
+}
+.message-input input {
+    height: 100%;
+    width: 95%;
+}
+.message-icons {
+    width: 20%;
+    margin: auto;
+}
+.message-icons ul {
+    margin: auto;
+    display: table;
+}
+.message-icons ul li {
+    display: inline-block;
+    margin: auto 5px;
+}
+.message-icons ul li img {
+    height: 30px;
+}
+.message-icons ul li img:hover {
+    cursor: pointer;
+}
+/*----------------*/
+/*----------------*/
+/* Footer */
+.main-footer {
+    width: 100%;
+    height: 10%;
+    background-color: blanchedalmond;
+}
