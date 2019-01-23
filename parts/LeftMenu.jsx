@@ -14,7 +14,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -23,7 +23,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -32,7 +32,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -41,7 +41,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -50,7 +50,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -59,7 +59,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -68,7 +68,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -77,7 +77,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -86,7 +86,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -95,7 +95,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -104,7 +104,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -113,7 +113,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -122,7 +122,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
@@ -131,7 +131,7 @@ class LeftMenu extends Component {
                                 <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
                             </div>
                             <div className="chat-details">
-                                <div className="chat-username">Yigit</div>
+                                <div className="chat-username">Shiro</div>
                                 <div className="chat-last-message">Sure, we can handle it.</div>
                             </div>
                         </li>
