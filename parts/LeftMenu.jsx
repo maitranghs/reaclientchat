@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+import MenuRow from './MenuRow.jsx'
+
 class LeftMenu extends Component {
     render() {
         return (
@@ -9,132 +11,9 @@ class LeftMenu extends Component {
                 </div>
                 <div className="left-menu-list-chat">
                     <ul>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
-                        <li className="chat-wrap-li">
-                            <div className="chat-avatar">
-                                <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
-                            </div>
-                            <div className="chat-details">
-                                <div className="chat-username">Shiro</div>
-                                <div className="chat-last-message">Sure, we can handle it.</div>
-                            </div>
-                        </li>
+                        {this.props.availableUsers.map(
+                            user => <MenuRow user={user} key={user.id}/>
+                        )}
                     </ul>
                 </div>
             </div>

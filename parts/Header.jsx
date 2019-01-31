@@ -1,6 +1,12 @@
 import React, {Component} from 'react'
 
 class Header extends Component {
+    constructor() {
+        super()
+        this.state = {
+            username: 'Anonymous'
+        }
+    }
     render() {
         return (
             <div className="main-header">
@@ -9,9 +15,9 @@ class Header extends Component {
                 </div>
                 <div className="profile-info">
                     <div className="profile-pic-icon">
-                        <img src="https://bodiezpro.com/wp-content/uploads/2015/09/medium-default-avatar.png"/>
+                        <img src={this.props.user.img}/>
                     </div>
-                    <div className="profile-nick-name">Mai Trang</div>
+                    <div className="profile-nick-name">{this.props.user.userName}</div>
                 </div>
             </div>
         )

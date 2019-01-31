@@ -12,7 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/maitranghs/reaclientchat.git"
   },
-  "keywords": ["chat"],
+  "keywords": [
+    "chat"
+  ],
   "author": "Shiro",
   "license": "ISC",
   "bugs": {
