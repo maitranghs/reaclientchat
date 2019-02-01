@@ -6,7 +6,7 @@ class MenuRow extends Component {
             color: this.props.user.color
         }
         return (
-            <li className="chat-wrap-li">
+            <li className="chat-wrap-li" onClick={this.props.onClick}>
                 <div className="chat-avatar">
                     <img src={this.props.user.img}/>
                 </div>

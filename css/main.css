@@ -14,6 +14,12 @@ input {
     background-color: #f5f6f7;
     border-radius: 5px;
 }
+.error {
+    color: red;
+    margin: 5px auto;
+    width: 90%;
+    font-size: 12px;
+}
 /* Main container */
 .main-container {
     position: relative;
@@ -144,6 +150,14 @@ input {
     display: flex;
     justify-content: flex-end;
     background-color: rgb(252, 244, 249);
+    min-height: 45px;
+}
+.message-right img {
+    position: absolute;
+    right: 10px;
+}
+.message-right .chat-message {
+    margin-right: 55px;
 }
 .chat-box-typing {
     height: 5%;
@@ -220,7 +234,7 @@ input {
     margin-bottom: 10px;
 }
 .inner-wrapper {
-    margin: 10px auto;
+    margin: 5px auto;
     width: 90%;
     display: flex;
     flex-direction: row;

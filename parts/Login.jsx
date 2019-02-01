@@ -5,7 +5,8 @@ class Login extends Component {
         super(props)
         this.state = {
             username: '',
-            password: ''
+            password: '',
+            error: undefined
         }
         this.handleChangeUsername = this.handleChangeUsername.bind(this)
         this.handleChangePassword = this.handleChangePassword.bind(this)
@@ -18,13 +19,19 @@ class Login extends Component {
         this.setState({password: e.target.value})
     }
     handleSubmit() {
-        this.props.client.register('Bui Thi Mai Trang', this.state.username, this.state.password, (loggedUser, users) => {
-            this.props.fnSubmittedUser(loggedUser, users)
+        this.props.client.register('', this.state.username, this.state.password, (err, loggedUser, users) => {
+            if (err) {
+                this.setState({error: err})
+            } else {
+                this.setState({error: undefined})
+                this.props.fnSubmittedUser(loggedUser, users)
+            }
         })
     }
     render() {
         return (
             <div className="wrapper">
+                { this.state.error && <p className="error">{this.state.error}</p>}
                 <div className="inner-wrapper">
                     <div className="row">
                         <div className="prop-left">Username/ Email (*)</div>

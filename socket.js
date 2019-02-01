@@ -16,25 +16,21 @@ export default function () {
     function register(fullname, username, password, cb) {
         socket.emit('register', fullname, username, password, cb)
     }
-    function join(chatroom, cb) {
-        socket.emit('join', chatroom, cb)
-    }
-    function leave(chatroom, cb) {
-        socket.emit('leave', chatroom, cb)
-    }
-    function message(chatroom, message, cb) {
-        socket.emit('message', chatroom, message, cb)
+    function message(fromId, toId, message, cb) {
+        socket.emit('message', fromId, toId, message, cb)
     }
     function getAvailableUsers(cb) {
         socket.on('getAvailableUsers', cb)
     }
+    function getHistory(fromId, toId, cb) {
+        socket.emit('getHistory', fromId, toId, cb)
+    }
 
     return {
+        socket,
         register,
-        join,
-        leave,
         message,
         getAvailableUsers,
-        socket
+        getHistory
     }
 }
