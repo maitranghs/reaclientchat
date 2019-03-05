@@ -22,6 +22,9 @@ export default function () {
     function getAvailableUsers(cb) {
         socket.on('getAvailableUsers', cb)
     }
+    function getNewestMessage(cb) {
+        socket.on('newMessage', cb)
+    }
     function getHistory(fromId, toId, cb) {
         socket.emit('getHistory', fromId, toId, cb)
     }
@@ -31,6 +34,7 @@ export default function () {
         register,
         message,
         getAvailableUsers,
-        getHistory
+        getHistory,
+        getNewestMessage
     }
 }

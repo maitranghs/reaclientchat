@@ -1,0 +1,9 @@
+export const GET_AVAILABLE_USERS = 'GET_AVAILABLE_USERS'
+export const REMOVE_AVAILABLE_USERS = 'REMOVE_AVAILABLE_USERS'
+
+export const ADD_NEW_MESSAGE = 'ADD_NEW_MESSAGE'
+export const SET_HISTORY = 'SET_HISTORY'
+
+export const LOG_IN = 'LOG_IN'
+export const LOG_IN_FAILED = 'LOG_IN_FAILED'
+export const LOG_OUT = 'LOG_OUT'
